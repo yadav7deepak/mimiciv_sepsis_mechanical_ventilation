@@ -8,10 +8,12 @@ data/
 *.csv.gz
 *.pth
 
-# Python Bytecode & Cache
+# Python Bytecode, Cache & Notebooks
 __pycache__/
 *.py[cod]
 *$py.class
+*.ipynb
+lab_and_fluid
 .ipynb_checkpoints/
 
 # System files
