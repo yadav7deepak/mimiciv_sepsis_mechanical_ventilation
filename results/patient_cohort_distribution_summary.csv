@@ -1,0 +1,3 @@
+Cohort,Total_Timesteps,Unique_Patients,Unique_Admissions,Unique_ICU_Stays,Mean_Age_Years,Male_Percent,90Day_Mortality_Percent
+Master Cohort (All 4h Sampled),2248324,65366,85242,94458,64.25,56.18,23.01
+"MDP Cohort (Adults, >=24h Vent, Imputed, Clustered)",1120403,19550,23211,25036,63.93,61.23,23.82

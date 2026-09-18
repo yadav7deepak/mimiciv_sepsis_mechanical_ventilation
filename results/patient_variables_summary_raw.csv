@@ -1,0 +1,111 @@
+Dataset,Category,Variable,Description,Total_Rows,Valid_Count,Missing_Count,Missing_Percent,Mean,Std,Min,P25,Median,P75,Max,IQR
+Full_Dataset_Unfiltered,Demographics,gender,Patient Gender (M/F),2248324,2248324,0,0.0,,,,,,,,
+Full_Dataset_Unfiltered,Demographics,first_admit_age,Age at First Admission (years),2248324,2248324,0,0.0,63.93,16.24,18.0,54.0,66.0,76.0,91.4,22.0
+Full_Dataset_Unfiltered,Demographics,weight,Patient Weight (kg),2248324,1674656,573668,25.52,89.02,1476.44,-54.6,68.5,81.73,97.95,551558.1,29.45
+Full_Dataset_Unfiltered,Demographics,ICU_readm,ICU Readmission Flag (0/1),2248324,2248324,0,0.0,0.53,0.5,0.0,0.0,1.0,1.0,1.0,1.0
+Full_Dataset_Unfiltered,Demographics,elixhauser_score,Elixhauser Comorbidity Score,2248324,2248324,0,0.0,5.12,8.62,-15.0,0.0,0.0,9.0,62.0,9.0
+Full_Dataset_Unfiltered,Demographics,HospMort90day,90-Day In-Hospital Mortality Flag (0/1),2248324,2248324,0,0.0,0.26,0.44,0.0,0.0,0.0,1.0,1.0,1.0
+Full_Dataset_Unfiltered,Severity Scores,SOFA,Sequential Organ Failure Assessment Score,2248324,2248324,0,0.0,5.16,2.22,0.0,4.0,5.0,6.0,23.0,2.0
+Full_Dataset_Unfiltered,Severity Scores,SIRS,Systemic Inflammatory Response Syndrome Score,2248324,2248324,0,0.0,0.9,0.86,0.0,0.0,1.0,2.0,4.0,2.0
+Full_Dataset_Unfiltered,Severity Scores,gcs,Glasgow Coma Scale Total,2248324,1352174,896150,39.86,11.73,3.8,3.0,10.0,14.0,15.0,15.0,5.0
+Full_Dataset_Unfiltered,Vital Signs,HeartRate,Heart Rate (bpm),2248324,2098424,149900,6.67,85.85,17.28,1.0,73.44,84.5,97.0,215.38,23.56
+Full_Dataset_Unfiltered,Vital Signs,SysBP,Systolic Blood Pressure (mmHg),2248324,2030956,217368,9.67,120.35,19.67,0.1,106.0,118.0,133.0,278.0,27.0
+Full_Dataset_Unfiltered,Vital Signs,DiasBP,Diastolic Blood Pressure (mmHg),2248324,2030841,217483,9.67,64.07,13.4,1.0,54.5,62.75,72.25,199.0,17.75
+Full_Dataset_Unfiltered,Vital Signs,MeanBP,Mean Arterial Pressure (mmHg),2248324,2081416,166908,7.42,79.9,13.71,1.0,70.25,78.12,88.0,299.0,17.75
+Full_Dataset_Unfiltered,Vital Signs,shockindex,Shock Index (SysBP / HeartRate),2248324,2029104,219220,9.75,1.47,0.4,0.0,1.18,1.41,1.69,6.63,0.51
+Full_Dataset_Unfiltered,Vital Signs,RespRate,Respiratory Rate (bpm),2248324,2084934,163390,7.27,20.16,5.02,1.0,16.5,19.5,23.0,69.0,6.5
+Full_Dataset_Unfiltered,Vital Signs,TempC,Body Temperature (°C),2248324,1842231,406093,18.06,36.94,0.6,24.61,36.61,36.89,37.22,43.06,0.61
+Full_Dataset_Unfiltered,Vital Signs,SpO2,Pulse Oximetry Saturation (%),2248324,2084485,163839,7.29,96.69,2.85,1.0,95.25,97.0,98.75,100.0,3.5
+Full_Dataset_Unfiltered,Blood Gas & Acid-Base,PH,Arterial Blood Gas pH,2248324,195779,2052545,91.29,7.36,0.08,7.0,7.32,7.37,7.42,7.79,0.1
+Full_Dataset_Unfiltered,Blood Gas & Acid-Base,PAO2,"Partial Pressure of Oxygen (PaO2, mmHg)",2248324,63008,2185316,97.2,89.93,11.14,70.0,81.0,90.0,99.0,110.0,18.0
+Full_Dataset_Unfiltered,Blood Gas & Acid-Base,PACO2,"Partial Pressure of Carbon Dioxide (PaCO2, mmHg)",2248324,171472,2076852,92.37,40.09,7.04,22.0,35.25,40.0,44.6,58.0,9.35
+Full_Dataset_Unfiltered,Blood Gas & Acid-Base,BASE_EXCESS,Base Excess (mEq/L),2248324,172427,2075897,92.33,-1.12,3.83,-10.0,-3.5,-1.0,1.0,10.0,4.5
+Full_Dataset_Unfiltered,Blood Gas & Acid-Base,BICARBONATE,Serum Bicarbonate (mEq/L),2248324,260695,1987629,88.4,22.86,4.85,2.0,20.0,23.0,25.5,50.0,5.5
+Full_Dataset_Unfiltered,Blood Gas & Acid-Base,LACTATE,Serum Lactate (mmol/L),2248324,163391,2084933,92.73,2.53,2.29,0.0,1.3,1.88,2.8,29.0,1.5
+Full_Dataset_Unfiltered,Blood Gas & Acid-Base,PAO2FiO2ratio,PaO2 / FiO2 Ratio (Horowitz Index),2248324,39429,2208895,98.25,172.52,60.05,70.0,125.29,169.35,212.0,519.05,86.71
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,POTASSIUM,Serum Potassium (mEq/L),2248324,303368,1944956,86.51,4.22,0.66,0.8,3.8,4.15,4.6,13.0,0.8
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,SODIUM,Serum Sodium (mEq/L),2248324,289393,1958931,87.13,137.76,5.61,73.96,135.0,138.0,141.0,187.0,6.0
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,CHLORIDE,Serum Chloride (mEq/L),2248324,283393,1964931,87.4,103.71,6.7,3.4,100.0,104.0,108.0,203.67,8.0
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,GLUCOSE,Serum Glucose (mg/dL),2248324,292028,1956296,87.01,143.67,68.91,3.0,106.0,128.0,160.0,4560.0,54.0
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,BUN,Blood Urea Nitrogen (mg/dL),2248324,261772,1986552,88.36,28.3,23.79,1.0,13.0,20.0,35.0,263.0,22.0
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,CREATININE,Serum Creatinine (mg/dL),2248324,262387,1985937,88.33,1.56,1.67,0.0,0.7,1.0,1.6,62.23,0.9
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,MAGNESIUM,Serum Magnesium (mg/dL),2248324,238882,2009442,89.38,2.09,0.56,0.0,1.8,2.0,2.3,41.8,0.5
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,CALCIUM,Serum Calcium (mg/dL),2248324,224549,2023775,90.01,8.36,0.85,0.0,7.9,8.4,8.8,46.2,0.9
+Full_Dataset_Unfiltered,Electrolytes & Chemistries,CARBONDIOXIDE,Total Carbon Dioxide (mEq/L),2248324,183647,2064677,91.83,24.51,5.9,0.0,21.0,24.0,27.0,89.0,6.0
+Full_Dataset_Unfiltered,Liver & Proteins,SGOT,"Aspartate Aminotransferase (AST/SGOT, IU/L)",2248324,164883,2083441,92.67,363.86,7974.34,0.0,27.0,51.0,123.0,999999.0,96.0
+Full_Dataset_Unfiltered,Liver & Proteins,SGPT,"Alanine Aminotransferase (ALT/SGPT, IU/L)",2248324,164933,2083391,92.66,277.3,7918.14,0.0,18.0,37.0,99.0,999999.0,81.0
+Full_Dataset_Unfiltered,Liver & Proteins,BILIRUBIN,Total Bilirubin (mg/dL),2248324,82881,2165443,96.31,2.29,4.94,0.0,0.4,0.8,1.8,78.0,1.4
+Full_Dataset_Unfiltered,Liver & Proteins,ALBUMIN,Serum Albumin (g/dL),2248324,45690,2202634,97.97,3.08,0.68,0.5,2.6,3.1,3.6,6.8,1.0
+Full_Dataset_Unfiltered,Hematology & Coagulation,HEMOGLOBIN,Hemoglobin (g/dL),2248324,265478,1982846,88.19,10.3,2.12,0.0,8.7,10.1,11.7,30.3,3.0
+Full_Dataset_Unfiltered,Hematology & Coagulation,WBC,White Blood Cell Count (10^9/L),2248324,250288,1998036,88.87,12.48,10.57,0.0,7.7,10.8,15.0,525.1,7.3
+Full_Dataset_Unfiltered,Hematology & Coagulation,PLATELET,Platelet Count (10^9/L),2248324,253022,1995302,88.75,197.24,110.48,5.0,126.0,179.0,246.0,2947.0,120.0
+Full_Dataset_Unfiltered,Hematology & Coagulation,PTT,Partial Thromboplastin Time (seconds),2248324,189191,2059133,91.59,41.37,25.7,12.6,27.7,31.8,42.2,150.0,14.5
+Full_Dataset_Unfiltered,Hematology & Coagulation,PT,Prothrombin Time (seconds),2248324,182470,2065854,91.88,16.82,9.27,7.75,12.6,14.2,17.2,150.0,4.6
+Full_Dataset_Unfiltered,Hematology & Coagulation,INR,International Normalized Ratio (INR),2248324,182426,2065898,91.89,1.54,0.88,0.6,1.1,1.3,1.6,27.4,0.5
+Full_Dataset_Unfiltered,Mechanical Ventilation,MechVent,Mechanical Ventilation Active (0/1),2248324,2248324,0,0.0,0.3,0.46,0.0,0.0,0.0,1.0,1.0,1.0
+Full_Dataset_Unfiltered,Mechanical Ventilation,FiO2,Fraction of Inspired Oxygen (%),2248324,830496,1417828,63.06,47.98,16.01,21.0,40.0,40.0,50.0,100.0,10.0
+Full_Dataset_Unfiltered,Mechanical Ventilation,PEEP,Positive End-Expiratory Pressure (cmH2O),2248324,645387,1602937,71.29,27.36,11861.26,-9.5,5.0,5.0,8.5,8774580.0,3.5
+Full_Dataset_Unfiltered,Mechanical Ventilation,tidal_volume,Exhaled Tidal Volume (mL),2248324,641031,1607293,71.49,482.77,2337.72,0.0,380.5,450.0,520.0,820914.0,139.5
+Full_Dataset_Unfiltered,Mechanical Ventilation,plateau_pressure,Plateau Pressure (cmH2O),2248324,251347,1996977,88.82,860.57,421089.07,0.0,16.0,20.0,24.0,211111000.0,8.0
+Full_Dataset_Unfiltered,Fluids & Vasopressors,urineoutput,Urine Output Volume (mL/4h),2248324,2248324,0,0.0,70.84,619.71,-18000.0,0.0,0.0,0.0,876587.0,0.0
+Full_Dataset_Unfiltered,Fluids & Vasopressors,iv_total,Intravenous Fluid Intake (mL/4h),2248324,2248324,0,0.0,328.58,624.06,0.0,0.0,50.0,400.0,100600.0,400.0
+Full_Dataset_Unfiltered,Fluids & Vasopressors,cum_fluid_balance,Cumulative Fluid Balance (mL),2248324,1667336,580988,25.84,-13633.45,30943.2,-4376987.0,-14916.69,-5315.0,-1949.5,925.0,12967.19
+Full_Dataset_Unfiltered,Fluids & Vasopressors,vaso_total,Total Vasopressor Equivalent Rate,2248324,269029,1979295,88.03,2.65,42.88,0.0,0.07,0.18,0.46,19992.0,0.39
+MDP_Cohort,Demographics,gender,Patient Gender (M/F),1120403,1120403,0,0.0,,,,,,,,
+MDP_Cohort,Demographics,first_admit_age,Age at First Admission (years),1120403,1120403,0,0.0,63.09,15.66,18.0,54.0,64.0,74.0,91.4,20.0
+MDP_Cohort,Demographics,weight,Patient Weight (kg),1120403,1120403,0,0.0,87.5,25.89,-54.6,70.82,84.03,100.1,352.0,29.28
+MDP_Cohort,Demographics,ICU_readm,ICU Readmission Flag (0/1),1120403,1120403,0,0.0,0.57,0.49,0.0,0.0,1.0,1.0,1.0,1.0
+MDP_Cohort,Demographics,elixhauser_score,Elixhauser Comorbidity Score,1120403,1120403,0,0.0,5.87,9.23,-14.0,0.0,0.0,11.0,53.0,11.0
+MDP_Cohort,Demographics,HospMort90day,90-Day In-Hospital Mortality Flag (0/1),1120403,1120403,0,0.0,0.32,0.47,0.0,0.0,0.0,1.0,1.0,1.0
+MDP_Cohort,Severity Scores,SOFA,Sequential Organ Failure Assessment Score,1120403,1120403,0,0.0,5.89,2.36,0.0,4.0,5.0,7.0,23.0,3.0
+MDP_Cohort,Severity Scores,SIRS,Systemic Inflammatory Response Syndrome Score,1120403,1120403,0,0.0,1.03,0.86,0.0,0.0,1.0,2.0,4.0,2.0
+MDP_Cohort,Severity Scores,gcs,Glasgow Coma Scale Total,1120403,1120403,0,0.0,10.22,4.06,3.0,7.0,10.0,14.0,15.0,7.0
+MDP_Cohort,Vital Signs,HeartRate,Heart Rate (bpm),1120403,1120403,0,0.0,87.78,17.29,2.0,75.5,86.67,99.0,215.38,23.5
+MDP_Cohort,Vital Signs,SysBP,Systolic Blood Pressure (mmHg),1120403,1120403,0,0.0,118.91,19.32,7.0,105.2,116.5,131.0,278.0,25.8
+MDP_Cohort,Vital Signs,DiasBP,Diastolic Blood Pressure (mmHg),1120403,1120403,0,0.0,62.16,12.79,6.0,53.25,60.75,70.0,199.0,16.75
+MDP_Cohort,Vital Signs,MeanBP,Mean Arterial Pressure (mmHg),1120403,1120403,0,0.0,78.79,13.12,3.0,69.75,77.0,86.25,299.0,16.5
+MDP_Cohort,Vital Signs,shockindex,Shock Index (SysBP / HeartRate),1120403,1120403,0,0.0,1.41,0.38,0.07,1.14,1.36,1.63,5.26,0.49
+MDP_Cohort,Vital Signs,RespRate,Respiratory Rate (bpm),1120403,1120403,0,0.0,20.87,5.31,2.0,17.0,20.25,24.12,68.0,7.12
+MDP_Cohort,Vital Signs,TempC,Body Temperature (°C),1120403,1120403,0,0.0,36.99,0.66,26.44,36.63,36.94,37.33,43.06,0.7
+MDP_Cohort,Vital Signs,SpO2,Pulse Oximetry Saturation (%),1120403,1120403,0,0.0,96.89,3.46,1.0,95.5,97.5,99.0,100.0,3.5
+MDP_Cohort,Blood Gas & Acid-Base,PH,Arterial Blood Gas pH,1120403,1120403,0,0.0,7.37,0.08,7.0,7.33,7.38,7.42,7.76,0.09
+MDP_Cohort,Blood Gas & Acid-Base,PAO2,"Partial Pressure of Oxygen (PaO2, mmHg)",1120403,1120403,0,0.0,90.03,10.18,70.0,83.0,89.8,97.0,110.0,14.0
+MDP_Cohort,Blood Gas & Acid-Base,PACO2,"Partial Pressure of Carbon Dioxide (PaCO2, mmHg)",1120403,1120403,0,0.0,40.33,7.53,22.0,35.0,40.0,45.0,58.0,10.0
+MDP_Cohort,Blood Gas & Acid-Base,BASE_EXCESS,Base Excess (mEq/L),1120403,1120403,0,0.0,-0.86,4.19,-10.0,-3.83,-0.5,1.0,10.0,4.83
+MDP_Cohort,Blood Gas & Acid-Base,BICARBONATE,Serum Bicarbonate (mEq/L),1120403,1120403,0,0.0,22.79,5.0,2.0,20.0,22.0,25.0,50.0,5.0
+MDP_Cohort,Blood Gas & Acid-Base,LACTATE,Serum Lactate (mmol/L),1120403,1120403,0,0.0,2.09,1.68,0.1,1.2,1.6,2.4,28.7,1.2
+MDP_Cohort,Blood Gas & Acid-Base,PAO2FiO2ratio,PaO2 / FiO2 Ratio (Horowitz Index),1120403,1120403,0,0.0,184.41,53.99,70.0,149.62,182.36,215.0,509.52,65.38
+MDP_Cohort,Electrolytes & Chemistries,POTASSIUM,Serum Potassium (mEq/L),1120403,1120403,0,0.0,4.22,0.61,1.27,3.8,4.2,4.6,11.49,0.8
+MDP_Cohort,Electrolytes & Chemistries,SODIUM,Serum Sodium (mEq/L),1120403,1120403,0,0.0,138.64,5.27,73.96,136.0,139.0,142.0,187.0,6.0
+MDP_Cohort,Electrolytes & Chemistries,CHLORIDE,Serum Chloride (mEq/L),1120403,1120403,0,0.0,104.22,6.65,60.67,100.0,105.0,108.0,203.67,8.0
+MDP_Cohort,Electrolytes & Chemistries,GLUCOSE,Serum Glucose (mg/dL),1120403,1120403,0,0.0,141.13,56.35,3.0,106.0,128.0,161.0,4560.0,55.0
+MDP_Cohort,Electrolytes & Chemistries,BUN,Blood Urea Nitrogen (mg/dL),1120403,1120403,0,0.0,31.54,24.35,1.0,15.0,24.0,40.0,263.0,25.0
+MDP_Cohort,Electrolytes & Chemistries,CREATININE,Serum Creatinine (mg/dL),1120403,1120403,0,0.0,1.69,1.57,0.0,0.8,1.1,2.0,62.23,1.2
+MDP_Cohort,Electrolytes & Chemistries,MAGNESIUM,Serum Magnesium (mg/dL),1120403,1120403,0,0.0,2.17,0.54,0.0,1.9,2.1,2.4,40.5,0.5
+MDP_Cohort,Electrolytes & Chemistries,CALCIUM,Serum Calcium (mg/dL),1120403,1120403,0,0.0,8.27,0.83,0.0,7.8,8.2,8.7,22.5,0.9
+MDP_Cohort,Electrolytes & Chemistries,CARBONDIOXIDE,Total Carbon Dioxide (mEq/L),1120403,1120403,0,0.0,24.83,5.62,3.5,21.0,24.0,28.0,64.0,7.0
+MDP_Cohort,Liver & Proteins,SGOT,"Aspartate Aminotransferase (AST/SGOT, IU/L)",1120403,1120403,0,0.0,154.97,3064.52,3.0,25.0,43.0,93.7,999999.0,68.7
+MDP_Cohort,Liver & Proteins,SGPT,"Alanine Aminotransferase (ALT/SGPT, IU/L)",1120403,1120403,0,0.0,112.35,3010.69,0.0,16.0,31.0,76.0,999999.0,60.0
+MDP_Cohort,Liver & Proteins,BILIRUBIN,Total Bilirubin (mg/dL),1120403,1120403,0,0.0,1.85,4.22,0.0,0.4,0.7,1.4,78.0,1.0
+MDP_Cohort,Liver & Proteins,ALBUMIN,Serum Albumin (g/dL),1120403,1120403,0,0.0,2.97,0.57,0.5,2.6,2.99,3.32,6.0,0.72
+MDP_Cohort,Hematology & Coagulation,HEMOGLOBIN,Hemoglobin (g/dL),1120403,1120403,0,0.0,10.12,2.05,2.3,8.6,9.9,11.4,30.3,2.8
+MDP_Cohort,Hematology & Coagulation,WBC,White Blood Cell Count (10^9/L),1120403,1120403,0,0.0,13.76,9.94,0.0,8.53,12.0,16.7,462.6,8.17
+MDP_Cohort,Hematology & Coagulation,PLATELET,Platelet Count (10^9/L),1120403,1120403,0,0.0,198.04,116.42,5.0,120.0,176.0,250.0,1799.0,130.0
+MDP_Cohort,Hematology & Coagulation,PTT,Partial Thromboplastin Time (seconds),1120403,1120403,0,0.0,39.45,22.26,16.6,27.7,31.8,40.5,150.0,12.8
+MDP_Cohort,Hematology & Coagulation,PT,Prothrombin Time (seconds),1120403,1120403,0,0.0,17.34,10.39,7.75,12.8,14.4,17.3,150.0,4.5
+MDP_Cohort,Hematology & Coagulation,INR,International Normalized Ratio (INR),1120403,1120403,0,0.0,1.59,1.01,0.7,1.2,1.3,1.6,20.8,0.4
+MDP_Cohort,Mechanical Ventilation,MechVent,Mechanical Ventilation Active (0/1),1120403,1120403,0,0.0,0.5,0.5,0.0,0.0,0.0,1.0,1.0,1.0
+MDP_Cohort,Mechanical Ventilation,FiO2,Fraction of Inspired Oxygen (%),1120403,1120403,0,0.0,47.17,15.35,21.0,40.0,40.0,50.0,100.0,10.0
+MDP_Cohort,Mechanical Ventilation,PEEP,Positive End-Expiratory Pressure (cmH2O),1120403,1120403,0,0.0,18.14,9002.31,0.0,5.0,5.0,8.0,8774580.0,3.0
+MDP_Cohort,Mechanical Ventilation,tidal_volume,Exhaled Tidal Volume (mL),1120403,1120403,0,0.0,499.28,1627.19,0.0,380.0,451.0,531.0,820914.0,151.0
+MDP_Cohort,Mechanical Ventilation,plateau_pressure,Plateau Pressure (cmH2O),1120403,1120403,0,0.0,207.53,199445.25,0.0,16.0,18.0,22.0,211111000.0,6.0
+MDP_Cohort,Fluids & Vasopressors,urineoutput,Urine Output Volume (mL/4h),1120403,1120403,0,0.0,39.18,154.91,-6000.0,0.0,0.0,0.0,4700.0,0.0
+MDP_Cohort,Fluids & Vasopressors,iv_total,Intravenous Fluid Intake (mL/4h),1120403,1120403,0,0.0,403.04,691.98,0.0,0.0,100.0,520.0,100600.0,520.0
+MDP_Cohort,Fluids & Vasopressors,cum_fluid_balance,Cumulative Fluid Balance (mL),1120403,1120403,0,0.0,-18784.22,38552.54,-4376987.0,-22597.5,-8748.0,-2891.5,20.0,19706.0
+MDP_Cohort,Fluids & Vasopressors,vaso_total,Total Vasopressor Equivalent Rate,1120403,1120403,0,0.0,1.81,21.64,0.0,0.05,0.18,0.5,19992.0,0.45
+MDP_Cohort,RL State & Actions,cluster_label,K-Means State Cluster Label (0-499),1120403,1120403,0,0.0,249.12,145.26,0.0,124.0,251.0,373.0,499.0,249.0
+MDP_Cohort,RL State & Actions,PEEP_binned,PEEP Action Quintile Bin (0-4),1120403,1120403,0,0.0,0.54,0.79,0.0,0.0,0.0,1.0,2.0,1.0
+MDP_Cohort,RL State & Actions,FiO2_binned,FiO2 Action Quintile Bin (0-4),1120403,1120403,0,0.0,0.63,0.77,0.0,0.0,0.0,1.0,2.0,1.0
+MDP_Cohort,RL State & Actions,tidal_volume_binned,Tidal Volume Action Quintile Bin (0-4),1120403,1120403,0,0.0,1.99,1.42,0.0,1.0,2.0,3.0,4.0,2.0
+MDP_Cohort,RL State & Actions,RespRate_binned,Resp Rate Action Quintile Bin (0-4),1120403,1120403,0,0.0,1.99,1.42,0.0,1.0,2.0,3.0,4.0,2.0
+MDP_Cohort,RL State & Actions,subject_has_deathtime,Mortality Outcome Indicator (-1/+1 Reward),1120403,1120403,0,0.0,0.29,0.45,0.0,0.0,0.0,1.0,1.0,1.0
